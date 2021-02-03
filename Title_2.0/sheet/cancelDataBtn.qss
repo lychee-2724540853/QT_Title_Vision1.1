@@ -1,0 +1,14 @@
+QPushButton{
+	background-color: rgb(255,80,80);
+	border: 1px solid rgb(124, 124, 124);
+	border-radius:1px;
+}
+QPushButton:pressed{
+	background-color: qconicalgradient(cx:0.5, cy:0.522909, angle:179.9, 
+		stop:0.494318 rgba(134, 198, 233, 255), stop:0.5 rgba(206, 234, 248, 255));
+	border: 1px solid #5F92B2;
+}
+QPushButton:hover{
+background-color: rgb(255,50,0);;
+border: 1px solid #3C80B1;
+}
